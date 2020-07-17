@@ -2,14 +2,13 @@
 # Webtalk v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Fri Jul 17 18:18:55 2020
-# Process ID: 9360
+# Start of session at: Fri Jul 17 18:28:53 2020
+# Process ID: 20316
 # Current directory: E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.sim/sim_1/behav/xsim
 # Command line: wbtcv.exe -mode batch -source E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.sim/sim_1/behav/xsim/xsim.dir/pc_reg_tb_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.sim/sim_1/behav/xsim/webtalk.log
 # Journal file: E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
 source E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.sim/sim_1/behav/xsim/xsim.dir/pc_reg_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-186] 'E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.sim/sim_1/behav/xsim/xsim.dir/pc_reg_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Jul 17 18:19:02 2020. For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
-webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 109.969 ; gain = 17.410
-INFO: [Common 17-206] Exiting Webtalk at Fri Jul 17 18:19:02 2020...
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 109.977 ; gain = 17.465
+INFO: [Common 17-206] Exiting Webtalk at Fri Jul 17 18:29:01 2020...
