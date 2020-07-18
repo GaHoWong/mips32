@@ -11,13 +11,13 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="264262fs"></ZoomStartTime>
-      <ZoomEndTime time="334363fs"></ZoomEndTime>
-      <Cursor1Time time="425586fs"></Cursor1Time>
+      <ZoomStartTime time="217592fs"></ZoomStartTime>
+      <ZoomEndTime time="376593fs"></ZoomEndTime>
+      <Cursor1Time time="78700fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="629"></NameColumnWidth>
-      <ValueColumnWidth column_width="725"></ValueColumnWidth>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="237"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="22" />
    <wvobject fp_name="/openmips_min_sopc_tb/CLOCK_50" type="logic">

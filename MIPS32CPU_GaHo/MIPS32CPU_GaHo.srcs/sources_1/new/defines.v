@@ -1,3 +1,13 @@
+//全局定义
+`define true 1'b1     
+`define false 1'b0
+`define w64 63:0     //w表示Width，w64表示64位位宽，下同
+`define w32 31:0
+`define w8 7:0
+`define w5 4;0
+`define w3 2:0
+
+
 //全局
 `define RstEnable 1'b1
 `define RstDisable 1'b0
@@ -28,8 +38,6 @@
 
 //指令
 `define EXE_ORI  6'b001101
-
-
 `define EXE_NOP 6'b000000
 
 
