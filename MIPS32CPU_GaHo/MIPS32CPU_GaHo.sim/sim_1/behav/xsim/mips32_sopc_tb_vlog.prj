@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MIPS32CPU_GaHo.srcs/sources_1/new/ex.v" \
+"../../../../MIPS32CPU_GaHo.srcs/sources_1/new/ex_to_mem.v" \
+"../../../../MIPS32CPU_GaHo.srcs/sources_1/new/id.v" \
+"../../../../MIPS32CPU_GaHo.srcs/sources_1/new/id_to_ex.v" \
+"../../../../MIPS32CPU_GaHo.srcs/sources_1/new/if_to_id.v" \
+"../../../../MIPS32CPU_GaHo.srcs/sources_1/new/mem.v" \
+"../../../../MIPS32CPU_GaHo.srcs/sources_1/new/men_wb.v" \
+"../../../../MIPS32CPU_GaHo.srcs/sources_1/new/mips32.v" \
+"../../../../MIPS32CPU_GaHo.srcs/sources_1/new/mips32_sopc.v" \
+"../../../../MIPS32CPU_GaHo.srcs/sources_1/new/pc_reg.v" \
+"../../../../MIPS32CPU_GaHo.srcs/sources_1/new/regfile.v" \
+"../../../../MIPS32CPU_GaHo.srcs/sources_1/new/rom.v" \
+"../../../../MIPS32CPU_GaHo.srcs/sim_1/new/mips32_sopc_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

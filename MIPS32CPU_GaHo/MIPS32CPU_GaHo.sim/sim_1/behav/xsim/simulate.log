@@ -1,2 +1,3 @@
 Vivado Simulator 2019.2
 Time resolution is 1 ps
+$stop called at time : 1195 ns : File "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sim_1/new/mips32_sopc_tb.v" Line 19
