@@ -84,7 +84,9 @@
 
 //AluOp
 `define EXE_AND_OP   8'b00100100
- 
+`define EXE_OR_OP    8'b00100101
+`define EXE_XOR_OP  8'b00100110
+`define EXE_NOR_OP  8'b00100111
 
 
 
