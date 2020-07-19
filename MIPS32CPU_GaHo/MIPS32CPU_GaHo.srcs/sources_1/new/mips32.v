@@ -3,13 +3,13 @@
 
 module openmips(
 
-	input	wire										clk,
-	input wire										rst,
+	input wire clk,
+	input wire rst,
 	
  
-	input wire[`RegBus]           rom_data_i,
-	output wire[`RegBus]           rom_addr_o,
-	output wire                    rom_ce_o,
+	input wire[`RegBus] rom_data_i,
+	output wire[`RegBus] rom_addr_o,
+	output wire rom_ce_o,
 	
   //连接数据存储器data_ram
 	input wire[`RegBus]           ram_data_i,

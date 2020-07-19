@@ -3,8 +3,8 @@
 
 module if_id(
 
-	input	wire										clk,
-	input wire										rst,
+	input	wire clk,
+	input wire rst,
 
 	//来自控制模块的信息
 	input wire[5:0]               stall,	
