@@ -177,3 +177,42 @@ selectCodeEditor("if_to_id.v", 178, 178); // ch (w, cr)
 selectCodeEditor("if_to_id.v", 161, 207); // ch (w, cr)
 // TclEventType: DG_GRAPH_STALE
 // TclEventType: FILE_SET_CHANGE
+// Elapsed time: 173 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, openmips_min_sopc_tb (mips32_sopc_tb.v), openmips_min_sopc0 : openmips_min_sopc (mips32_sopc.v), openmips0 : openmips (mips32.v), id0 : id (id.v)]", 14, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, openmips_min_sopc_tb (mips32_sopc_tb.v), openmips_min_sopc0 : openmips_min_sopc (mips32_sopc.v), openmips0 : openmips (mips32.v), id0 : id (id.v)]", 14, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("id.v", 154, 175); // ch (w, cr)
+selectCodeEditor("id.v", 308, 202); // ch (w, cr)
+selectCodeEditor("id.v", 262, 239); // ch (w, cr)
+selectCodeEditor("id.v", 316, 262); // ch (w, cr)
+selectCodeEditor("id.v", 267, 240); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("id.v", 438, 339); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("id.v", 565, 433); // ch (w, cr)
+selectCodeEditor("id.v", 257, 463); // ch (w, cr)
+selectCodeEditor("id.v", 377, 505); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("id.v", 571, 593); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("id.v", 479, 623); // ch (w, cr)
+selectCodeEditor("id.v", 413, 408); // ch (w, cr)
+selectCodeEditor("id.v", 482, 439); // ch (w, cr)
+selectCodeEditor("id.v", 386, 478); // ch (w, cr)
+selectCodeEditor("id.v", 387, 475); // ch (w, cr)
+selectCodeEditor("id.v", 378, 470); // ch (w, cr)
+selectCodeEditor("id.v", 379, 534); // ch (w, cr)
+selectCodeEditor("id.v", 379, 566); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("id.v", 378, 474); // ch (w, cr)
+selectCodeEditor("id.v", 377, 494); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("id.v", 381, 537); // ch (w, cr)
+selectCodeEditor("id.v", 379, 560); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
