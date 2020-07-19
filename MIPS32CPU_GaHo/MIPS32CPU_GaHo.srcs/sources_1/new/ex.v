@@ -3,7 +3,7 @@
 
 module ex(
 
-	input wire										rst,
+	input wire rst,
 	
 	//送到执行阶段的信息
 	input wire[`AluOpBus]         aluop_i,

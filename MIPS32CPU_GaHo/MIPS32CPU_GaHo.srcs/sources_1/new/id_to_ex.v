@@ -3,11 +3,11 @@
 
 module id_ex(
 
-	input	wire										clk,
-	input wire										rst,
+	input	wire clk,
+	input wire rst,
 
 	//来自控制模块的信息
-	input wire[5:0]							 stall,
+	input wire[5:0] stall,
 	
 	//从译码阶段传递的信息
 	input wire[`AluOpBus]         id_aluop,

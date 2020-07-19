@@ -3,16 +3,16 @@
 
 module LLbit_reg(
 
-	input	wire										clk,
-	input wire										rst,
+	input	wire clk,
+	input wire rst,
 	
-	input wire                    flush,
+	input wire flush,
 	//Ğ´¶Ë¿Ú
-	input wire										LLbit_i,
-	input wire                    we,
+	input wire LLbit_i,
+	input wire we,
 	
 	//¶Á¶Ë¿Ú1
-	output reg                    LLbit_o
+	output reg LLbit_o
 	
 );
 

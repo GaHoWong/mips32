@@ -3,7 +3,7 @@
 
 module mem(
 
-	input wire										rst,
+	input wire rst,
 	
 	//来自执行阶段的信息	
 	input wire[`RegAddrBus]       wd_i,

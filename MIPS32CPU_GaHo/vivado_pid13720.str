@@ -216,3 +216,30 @@ selectCodeEditor("id.v", 381, 537); // ch (w, cr)
 selectCodeEditor("id.v", 379, 560); // ch (w, cr)
 // TclEventType: DG_GRAPH_STALE
 // TclEventType: FILE_SET_CHANGE
+// Elapsed time: 40 seconds
+selectCodeEditor("id.v", 169, 171); // ch (w, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, openmips_min_sopc_tb (mips32_sopc_tb.v), openmips_min_sopc0 : openmips_min_sopc (mips32_sopc.v), openmips0 : openmips (mips32.v), regfile1 : regfile (regfile.v)]", 15, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, openmips_min_sopc_tb (mips32_sopc_tb.v), openmips_min_sopc0 : openmips_min_sopc (mips32_sopc.v), openmips0 : openmips (mips32.v), regfile1 : regfile (regfile.v)]", 15, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("regfile.v", 185, 182); // ch (w, cr)
+selectCodeEditor("regfile.v", 162, 209); // ch (w, cr)
+selectCodeEditor("regfile.v", 159, 300); // ch (w, cr)
+selectCodeEditor("regfile.v", 301, 331); // ch (w, cr)
+selectCodeEditor("regfile.v", 258, 372); // ch (w, cr)
+selectCodeEditor("regfile.v", 313, 427); // ch (w, cr)
+selectCodeEditor("regfile.v", 154, 462); // ch (w, cr)
+selectCodeEditor("regfile.v", 296, 495); // ch (w, cr)
+selectCodeEditor("regfile.v", 254, 531); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("regfile.v", 160, 430); // ch (w, cr)
+selectCodeEditor("regfile.v", 550, 434); // ch (w, cr)
+selectCodeEditor("regfile.v", 574, 439); // ch (w, cr)
+typeControlKey(null, null, 'z');
+selectCodeEditor("regfile.v", 484, 460); // ch (w, cr)
+selectCodeEditor("regfile.v", 569, 436); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("regfile.v", 420, 469); // ch (w, cr)
+selectCodeEditor("regfile.v", 375, 496); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
