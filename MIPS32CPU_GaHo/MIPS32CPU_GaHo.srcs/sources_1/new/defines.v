@@ -87,6 +87,10 @@
 `define EXE_OR_OP    8'b00100101
 `define EXE_XOR_OP  8'b00100110
 `define EXE_NOR_OP  8'b00100111
+`define EXE_ANDI_OP  8'b01011001
+`define EXE_ORI_OP  8'b01011010
+`define EXE_XORI_OP  8'b01011011
+`define EXE_LUI_OP  8'b01011100   
 
 
 
