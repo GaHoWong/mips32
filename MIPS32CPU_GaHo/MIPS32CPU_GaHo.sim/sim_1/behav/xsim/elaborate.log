@@ -4,11 +4,13 @@ Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 147b1046f8
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'ram_ce_o' [E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/mips32_sopc.v:36]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'mem_ce_o' [E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/mips32.v:390]
 Completed static elaboration
 Starting simulation data flow analysis
 WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/mips32_sopc.v" Line 4. Module openmips_min_sopc doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/mips32.v" Line 4. Module openmips doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/pc_reg.v" Line 3. Module pc_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/pc_reg.v" Line 4. Module pc_reg doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/if_to_id.v" Line 4. Module if_id doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/id.v" Line 4. Module id doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/regfile.v" Line 4. Module regfile doesn't have a timescale but at least one module in design has a timescale.
@@ -17,7 +19,12 @@ WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sou
 WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/ex_to_mem.v" Line 4. Module ex_mem doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/mem.v" Line 4. Module mem doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/mem_wb.v" Line 4. Module mem_wb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/hilo_reg.v" Line 4. Module hilo_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/ctrl.v" Line 4. Module ctrl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/div.v" Line 3. Module div doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/LLbit_reg.v" Line 4. Module LLbit_reg doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/rom.v" Line 4. Module inst_rom doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sources_1/new/data_ram.v" Line 4. Module data_ram doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.pc_reg
@@ -29,8 +36,13 @@ Compiling module xil_defaultlib.ex
 Compiling module xil_defaultlib.ex_mem
 Compiling module xil_defaultlib.mem
 Compiling module xil_defaultlib.mem_wb
+Compiling module xil_defaultlib.hilo_reg
+Compiling module xil_defaultlib.ctrl
+Compiling module xil_defaultlib.div
+Compiling module xil_defaultlib.LLbit_reg
 Compiling module xil_defaultlib.openmips
 Compiling module xil_defaultlib.inst_rom
+Compiling module xil_defaultlib.data_ram
 Compiling module xil_defaultlib.openmips_min_sopc
 Compiling module xil_defaultlib.openmips_min_sopc_tb
 Compiling module xil_defaultlib.glbl
