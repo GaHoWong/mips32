@@ -9,7 +9,15 @@ module id(
 
 	input wire[`RegBus]           reg1_data_i,
 	input wire[`RegBus]           reg2_data_i,
+//处于执行阶段的指令的运算结果
+input wire ex_wreg_i,
+input wire [`w32] ex_wdata_i,
+input wire [`w32] ex_wd_i,
 
+//处于访存阶段的指令运算结果
+input wire  mem_wreg_i,
+input wire [`w32] mem_wdata_i,
+input wire [`w32] mem_wd_i,
 	//送到regfile的信息
 	output reg                    reg1_read_o,
 	output reg                    reg2_read_o,     
