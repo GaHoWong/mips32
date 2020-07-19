@@ -1,0 +1,179 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 13720
+License: Customer
+
+Current time: 	Sun Jul 19 22:41:25 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 2560x1600
+Screen resolution (DPI): 175
+Available screens: 1
+Available disk space: 61 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=21
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	D:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	GaHo
+User home directory: C:/Users/GaHo
+User working directory: E:/CPU/MIPS32CPU/MIPS32CPU_GaHo
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2019.2
+RDI_DATADIR: D:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: D:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/GaHo/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/GaHo/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/GaHo/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/vivado.log
+Vivado journal file location: 	E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/vivado.jou
+Engine tmp dir: 	E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/.Xil/Vivado-13720-DESKTOP-LI0J88B
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2019.2
+XILINX_VIVADO: D:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	384 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 699 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: E:\CPU\MIPS32CPU\MIPS32CPU_GaHo\MIPS32CPU_GaHo.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 116 MB (+119671kb) [00:00:13]
+// [Engine Memory]: 738 MB (+622266kb) [00:00:13]
+// [GUI Memory]: 131 MB (+9072kb) [00:00:14]
+// WARNING: HEventQueue.dispatchEvent() is taking  3558 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 775 MB. GUI used memory: 67 MB. Current time: 7/19/20, 10:41:31 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 990.914 ; gain = 113.359 
+// Project name: MIPS32CPU_GaHo; location: E:/CPU/MIPS32CPU/MIPS32CPU_GaHo; part: xc7a200tfbg676-2
+dismissDialog("Open Project"); // bB (cr)
+// a (cr): Critical Messages: addNotify
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 44 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, openmips_min_sopc (mips32_sopc.v)]", 3); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, openmips_min_sopc (mips32_sopc.v), openmips0 : openmips (mips32.v)]", 4); // B (F, cr)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, openmips_min_sopc (mips32_sopc.v), openmips0 : openmips (mips32.v)]", 4); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog]", 2); // B (F, cr)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog]", 2); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Global Include]", 1); // B (F, cr)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Global Include]", 1); // B (F, cr)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, openmips_min_sopc (mips32_sopc.v)]", 3); // B (F, cr)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 2); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 3); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Data Files]", 8); // B (F, cr)
+// PAPropertyPanels.initPanels (rom.data) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Data Files, rom.data]", 9, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Data Files, rom.data]", 9, false, false, false, false, true, false); // B (F, cr) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai (ao, cr)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cr): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cr)
+// Tcl Message: export_ip_user_files -of_objects  [get_files E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sim_1/new/rom.data] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 775 MB (+387kb) [00:01:26]
+// Tcl Message: remove_files  -fileset sim_1 E:/CPU/MIPS32CPU/MIPS32CPU_GaHo/MIPS32CPU_GaHo.srcs/sim_1/new/rom.data 
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Data Files]", 8); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File]", 7); // B (F, cr)
+// Elapsed time: 965 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, openmips_min_sopc_tb (mips32_sopc_tb.v)]", 9); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, openmips_min_sopc_tb (mips32_sopc_tb.v), openmips_min_sopc0 : openmips_min_sopc (mips32_sopc.v)]", 10); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, openmips_min_sopc_tb (mips32_sopc_tb.v), openmips_min_sopc0 : openmips_min_sopc (mips32_sopc.v), openmips0 : openmips (mips32.v)]", 11, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, openmips_min_sopc_tb (mips32_sopc_tb.v), openmips_min_sopc0 : openmips_min_sopc (mips32_sopc.v), openmips0 : openmips (mips32.v), regfile1 : regfile (regfile.v)]", 15, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("mips32.v", 180, 176); // ch (w, cr)
+selectCodeEditor("mips32.v", 153, 204); // ch (w, cr)
+selectCodeEditor("mips32.v", 132, 176); // ch (w, cr)
+selectCodeEditor("mips32.v", 247, 257); // ch (w, cr)
+selectCodeEditor("mips32.v", 260, 302); // ch (w, cr)
+selectCodeEditor("mips32.v", 269, 328); // ch (w, cr)
+selectCodeEditor("mips32.v", 173, 367); // ch (w, cr)
+selectCodeEditor("mips32.v", 270, 380); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, openmips_min_sopc_tb (mips32_sopc_tb.v), openmips_min_sopc0 : openmips_min_sopc (mips32_sopc.v), openmips0 : openmips (mips32.v), pc_reg0 : pc_reg (pc_reg.v)]", 12, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, openmips_min_sopc_tb (mips32_sopc_tb.v), openmips_min_sopc0 : openmips_min_sopc (mips32_sopc.v), openmips0 : openmips (mips32.v), pc_reg0 : pc_reg (pc_reg.v)]", 12, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("pc_reg.v", 174, 176); // ch (w, cr)
+selectCodeEditor("pc_reg.v", 187, 176); // ch (w, cr)
+selectCodeEditor("pc_reg.v", 180, 177); // ch (w, cr)
+selectCodeEditor("pc_reg.v", 156, 209); // ch (w, cr)
+selectCodeEditor("pc_reg.v", 129, 185); // ch (w, cr)
+selectCodeEditor("pc_reg.v", 176, 281); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pc_reg.v", 209, 301); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pc_reg.v", 373, 397); // ch (w, cr)
+selectCodeEditor("pc_reg.v", 383, 434); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pc_reg.v", 437, 509); // ch (w, cr)
+selectCodeEditor("pc_reg.v", 373, 534); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, openmips_min_sopc_tb (mips32_sopc_tb.v), openmips_min_sopc0 : openmips_min_sopc (mips32_sopc.v), openmips0 : openmips (mips32.v), if_id0 : if_id (if_to_id.v)]", 13, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, openmips_min_sopc_tb (mips32_sopc_tb.v), openmips_min_sopc0 : openmips_min_sopc (mips32_sopc.v), openmips0 : openmips (mips32.v), if_id0 : if_id (if_to_id.v)]", 13, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("if_to_id.v", 178, 178); // ch (w, cr)
+selectCodeEditor("if_to_id.v", 161, 207); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
